@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8D710F84-BC7A-E3CE-0120-BFF97A1DA196" name="sepeda">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:36:50 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_merk" id="2098333F-7320-6132-C0D1-03B5DDC954F8">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:36:50 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="harga_produk" id="64FA5714-6D46-66AF-C9FF-543B9C90D2B0">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:36:50 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stok_produk" id="78FA431E-56F1-8AF1-4353-3718C6B67571">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:36:50 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produk" id="1CD277EF-1E64-CABD-3C50-9867F4D12908">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:43:14 UTC</createdTime>
+<generatorID>292E06D9-9F42-9DDB-39BE-9C9A7D4FFFA3</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>4A76F587-994C-30C8-83D5-8B70565617CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93BD23F3-9052-A9E9-C2A8-57F38EEA2702" name="sepatu_running PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:36:50 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2098333F-7320-6132-C0D1-03B5DDC954F8</attributeRef>
+<attributeRef>1CD277EF-1E64-CABD-3C50-9867F4D12908</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

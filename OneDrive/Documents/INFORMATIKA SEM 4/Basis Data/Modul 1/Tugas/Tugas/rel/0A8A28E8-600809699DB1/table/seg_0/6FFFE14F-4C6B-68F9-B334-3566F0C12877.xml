@@ -1,0 +1,88 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6FFFE14F-4C6B-68F9-B334-3566F0C12877" name="sepatu_running">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>7D4EB2AE-1091-A2B9-89E6-3845D40A2D3B</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_merk" id="E523CE3E-A5D4-2BC2-DF4B-CFB9B741E80B">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>4C1CBE59-8F7F-9864-0426-E65723FF0CE1</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="harga_produk" id="9E7ABC32-76D4-DC10-B088-53D711C13293">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>CB5190A3-84A0-241A-5563-F82BAA590FD6</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stok_produk" id="86A492AC-7A6D-FC9C-154D-3D7C677527CB">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>7B75B5B9-C312-1C67-57D5-58BABF4ECE89</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produk_id_produk" id="D56078B3-DC40-6775-28DB-95DF819C50AF">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>1A8819CB-16D9-2FBC-3841-0F87A46201CF</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9D5F656F-A3B1-129E-78D8-AF43C193814F" referredColumn="29375A88-E0F3-CAE8-21CC-878C1E0A65E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CAC9AE37-2D06-73CD-6C59-E9E5B9E07EB0" name="sepatu_running_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>1E4EAFEE-BD30-7D2F-35C0-E743FB081551</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E523CE3E-A5D4-2BC2-DF4B-CFB9B741E80B"/>
+<colUsage columnID="D56078B3-DC40-6775-28DB-95DF819C50AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="51C7AD2A-19F0-2535-3D3B-5FCBC9B987EC" name="sepatu_running_Produk_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>74499567-FF76-A309-95F6-2DEBA19335A6</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D56078B3-DC40-6775-28DB-95DF819C50AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

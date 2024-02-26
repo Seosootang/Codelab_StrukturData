@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C06655AC-0824-D87D-1D81-ED92DAB4DCBF" name="penjualan">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:21:17 UTC</createdTime>
+<generatorID>9AAA2974-01EF-951C-3A76-C81E447BBF0A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_penjualan" id="6978612F-F447-CAE6-FAFC-2FDE6AA78B0E">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:21:17 UTC</createdTime>
+<generatorID>7147F3D9-0ADE-1D84-38CF-0F627A50D09C</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal" id="531DE3AE-7C4A-F236-FC5C-9E0A3D6CB65B">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:21:17 UTC</createdTime>
+<generatorID>ECA07A91-CF8B-AE32-5A53-DD770230A8AC</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pelanggan" id="E33EF4F1-1CA1-FD0A-0FA5-CB192A0947D7">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:21:17 UTC</createdTime>
+<generatorID>68248E6A-7C99-3B98-DE32-4627CAAC003B</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="detail_penjualan_id_penjualan" id="2E87A09D-CB4D-849A-6E1D-622723400798">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:21:17 UTC</createdTime>
+<generatorID>6309A02E-B243-CBC8-25B0-4E7454A10BBC</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Produk_id_produk" id="5B8CF6FF-7E03-7A10-A760-7B7F57A1AD7C">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>D561868B-C2BA-5F1F-04B2-58F1EEB7574E</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6AF10588-A377-7107-C260-BB1663529261" referredColumn="29375A88-E0F3-CAE8-21CC-878C1E0A65E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D9F0C7F0-59DC-013C-FCB5-0BDFE96660F3" name="penjualanv1_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:21:17 UTC</createdTime>
+<generatorID>C65382C8-3FF2-2765-32EE-7DF6343F0C78</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6978612F-F447-CAE6-FAFC-2FDE6AA78B0E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1F1072D2-F98F-DE88-DCC2-5B210C3A55C6" name="penjualan_Produk_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>1EE38B32-4948-2583-2FE7-8298405535C5</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B8CF6FF-7E03-7A10-A760-7B7F57A1AD7C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

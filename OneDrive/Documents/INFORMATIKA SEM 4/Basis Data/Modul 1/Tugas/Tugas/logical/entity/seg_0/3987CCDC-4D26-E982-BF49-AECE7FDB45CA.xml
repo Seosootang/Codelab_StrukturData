@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3987CCDC-4D26-E982-BF49-AECE7FDB45CA" name="Produk">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:04:59 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_produk" id="4A76F587-994C-30C8-83D5-8B70565617CE">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:05:17 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_produk" id="6687BE87-86B6-D650-83D7-EEA6EA35A2D1">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:05:53 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nama_supplier" id="12EFF67C-6986-1CAE-7143-FF3313F08117">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:07:59 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="45226003-9694-39E5-AFBA-35BBEE3FF36A" name="Produk PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:05:48 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>4A76F587-994C-30C8-83D5-8B70565617CE</newElementsIDs>
+<usedAttributes>
+<attributeRef>4A76F587-994C-30C8-83D5-8B70565617CE</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

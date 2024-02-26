@@ -1,0 +1,61 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BCB174E3-1A8E-61A7-95D9-28716F0B24E3" name="Produk">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>3987CCDC-4D26-E982-BF49-AECE7FDB45CA</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produk" id="29375A88-E0F3-CAE8-21CC-878C1E0A65E5">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>4A76F587-994C-30C8-83D5-8B70565617CE</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_produk" id="6341F5C4-6409-ECA4-A8C3-40A362EC4E8C">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>6687BE87-86B6-D650-83D7-EEA6EA35A2D1</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_supplier" id="6D97AFB7-1E5F-88CB-F64A-080B816510C2">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>12EFF67C-6986-1CAE-7143-FF3313F08117</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="292DE185-8B69-ADC1-68CF-178909531DEC" name="Produk_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 13:58:09 UTC</createdTime>
+<generatorID>45226003-9694-39E5-AFBA-35BBEE3FF36A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="29375A88-E0F3-CAE8-21CC-878C1E0A65E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

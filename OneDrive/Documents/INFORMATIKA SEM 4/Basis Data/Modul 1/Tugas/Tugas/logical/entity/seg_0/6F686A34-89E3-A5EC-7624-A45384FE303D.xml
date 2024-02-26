@@ -1,0 +1,126 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="6F686A34-89E3-A5EC-7624-A45384FE303D" name="detail_penjualan">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:29:11 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_penjualan" id="AD12E1DB-7A24-C4EE-3C33-1B0BE0E337DB">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:30:16 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produk" id="FE8BC2CF-39AB-0DA6-89B9-96AD4B3050F7">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:31:19 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="jumlah" id="705FCD01-8A1D-947D-E2F4-1565533C8421">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:31:32 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal" id="AAB222B0-2405-D6AB-F51A-7D234F1EC0C3">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:31:48 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan_1" id="54514B41-F81F-E3B9-3E59-6DD533441661">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:32:38 UTC</createdTime>
+<generatorID>F14936AB-1555-E7CE-4329-46BD2CA561AE</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>497B4073-574E-BA33-7661-99D3EE026B21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_penjualan1" id="E2DD54A4-306B-B5B1-B229-A5966EDCCC9E">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:32:55 UTC</createdTime>
+<generatorID>C3B23EC1-3D8E-8CD9-22E6-C40A11FA8C30</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>7147F3D9-0ADE-1D84-38CF-0F627A50D09C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_produk1" id="575DD332-799F-2DF6-1372-0194944D66E7">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:00 UTC</createdTime>
+<generatorID>B373F865-3958-3349-6349-B822A1B3B84A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>4A76F587-994C-30C8-83D5-8B70565617CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="586E5D1D-B593-F8A4-AECB-2CDCABE7C60F" name="detail_penjualan PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:31:34 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD12E1DB-7A24-C4EE-3C33-1B0BE0E337DB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

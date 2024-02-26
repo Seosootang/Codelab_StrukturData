@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5C661F9D-D6AD-3A4C-0AB6-D90EB43AF6E4" containerWithKeyObject="A9902F56-156E-2EEA-022F-858E03BDE785" localFKIndex="D8ED97FD-DB5E-1A8A-0F69-2DB6FB31AE34" name="detail_penjualanv1_penjualan_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>C3B23EC1-3D8E-8CD9-22E6-C40A11FA8C30</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<referredTableLongName>penjualan</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>C06655AC-0824-D87D-1D81-ED92DAB4DCBF</referredTableID>
+<keyObject>D9F0C7F0-59DC-013C-FCB5-0BDFE96660F3</keyObject>
+<referredKeyID>D9F0C7F0-59DC-013C-FCB5-0BDFE96660F3</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_penjualan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

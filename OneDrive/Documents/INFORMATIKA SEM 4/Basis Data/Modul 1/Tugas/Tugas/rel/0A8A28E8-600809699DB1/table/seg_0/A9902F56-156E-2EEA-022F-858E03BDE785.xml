@@ -1,0 +1,151 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="A9902F56-156E-2EEA-022F-858E03BDE785" name="detail_penjualanv1">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>6F686A34-89E3-A5EC-7624-A45384FE303D</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_penjualan" id="95757EE3-8090-11FE-1EF8-ED57D091EC06">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>AD12E1DB-7A24-C4EE-3C33-1B0BE0E337DB</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_produk" id="2D98EB58-7D10-B44D-1F8A-F434D5DAAB46">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>FE8BC2CF-39AB-0DA6-89B9-96AD4B3050F7</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah" id="3DFB33F6-693E-D305-E664-61BBBE4E7663">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>705FCD01-8A1D-947D-E2F4-1565533C8421</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="4F851CD8-DC42-F0AA-9BEC-71BD6C730360">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>AAB222B0-2405-D6AB-F51A-7D234F1EC0C3</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="pelanggan_id_pelanggan_1" id="4236CCB2-298F-FE9F-4D7A-5078A00A588A">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>54514B41-F81F-E3B9-3E59-6DD533441661</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A808794-593D-7598-F85B-1B65E43D33D8" referredColumn="9B338867-006E-1922-C62C-AE893E7D27C0"/>
+</associations>
+</Column>
+<Column name="penjualan_id_penjualan" id="AA9EB61D-1FCD-4E55-8485-0DCA41423ACF">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>E2DD54A4-306B-B5B1-B229-A5966EDCCC9E</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5C661F9D-D6AD-3A4C-0AB6-D90EB43AF6E4" referredColumn="6978612F-F447-CAE6-FAFC-2FDE6AA78B0E"/>
+</associations>
+</Column>
+<Column name="Produk_id_produk" id="2FBD7A64-71E6-8ADD-C36B-6FEB5CBC97B7">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>575DD332-799F-2DF6-1372-0194944D66E7</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B6FF2734-B538-F7F1-C40C-829EDE855B5B" referredColumn="29375A88-E0F3-CAE8-21CC-878C1E0A65E5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F926ECCF-238F-088E-B3C4-C9FEFCD675BB" name="detail_penjualanv1_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>586E5D1D-B593-F8A4-AECB-2CDCABE7C60F</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="95757EE3-8090-11FE-1EF8-ED57D091EC06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5C6A7FEA-4A31-96A9-9E3D-73F30568E3A2" name="detail_penjualanv1_pelanggan_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>F14936AB-1555-E7CE-4329-46BD2CA561AE</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4236CCB2-298F-FE9F-4D7A-5078A00A588A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D8ED97FD-DB5E-1A8A-0F69-2DB6FB31AE34" name="detail_penjualanv1_penjualan_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>C3B23EC1-3D8E-8CD9-22E6-C40A11FA8C30</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AA9EB61D-1FCD-4E55-8485-0DCA41423ACF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ED330A4B-E2E1-AC18-F08B-AF67D340C03E" name="detail_penjualanv1_Produk_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-26 15:33:59 UTC</createdTime>
+<generatorID>B373F865-3958-3349-6349-B822A1B3B84A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2FBD7A64-71E6-8ADD-C36B-6FEB5CBC97B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
