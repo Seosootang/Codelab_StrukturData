@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="66765330-2310-E89A-2308-97D166D9773E" name="Produk">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>3987CCDC-4D26-E982-BF49-AECE7FDB45CA</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_produk" id="74B10E2C-398A-3C66-D027-08DB5C318AC6">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>4A76F587-994C-30C8-83D5-8B70565617CE</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_produk" id="351DBAB5-27AC-7F8A-8A92-8124D437FC6C">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>6687BE87-86B6-D650-83D7-EEA6EA35A2D1</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_supplier" id="875EACBC-4CF7-0CCD-10F0-EA4F854810EB">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>12EFF67C-6986-1CAE-7143-FF3313F08117</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaksi_id_transaksi" id="BDB82622-9A04-849B-B708-314926EF4C7F">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>ABAB5194-0BE7-3D19-8392-ADDEF8B7ACC9</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7E8D654-076A-908D-67DA-356ADA1A5C34" referredColumn="A2B49D25-98E2-8FE6-1998-1F4D60A593EA"/>
+</associations>
+</Column>
+<Column name="Kategori_produk_ID_kategori" id="91AD2BC4-DB08-D53A-2580-B9385354AAA6">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>B80698FF-8294-C4FD-7FAC-C032F9F418A7</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C0BF77E-C238-4B0C-42C9-20ABB5A3A734" referredColumn="3752E74C-A9FC-F8AD-CD11-591D26FE59B3"/>
+</associations>
+</Column>
+<Column name="Transaksi_id_pelanggan1" id="31F8F9C3-FF79-2D72-6981-C818A5CEDF15">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>524F2076-C74C-2234-E526-97FD420002BE</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C7E8D654-076A-908D-67DA-356ADA1A5C34" referredColumn="66154D6B-224C-DBB7-702E-2BF743C6364A"/>
+</associations>
+</Column>
+<Column name="supplier_produk_id_supplier" id="E37C1F48-E451-8F4F-347D-F431867216A2">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>A18F247A-C103-FCF1-4B45-67870FDC4C27</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FF154370-2980-9DE3-1075-960E3F6ACC4E" referredColumn="8421C45F-4437-8BE5-A268-54C66F63FA84"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="7DD36E65-2DA2-747A-EADB-B56D991159F7" name="Produk_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>45226003-9694-39E5-AFBA-35BBEE3FF36A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74B10E2C-398A-3C66-D027-08DB5C318AC6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DE5D8842-9CFC-46A9-B74A-E8054A0A900D" name="Produk_Transaksi_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>303A4499-EB0E-4203-6961-904B8507EDA9</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BDB82622-9A04-849B-B708-314926EF4C7F"/>
+<colUsage columnID="31F8F9C3-FF79-2D72-6981-C818A5CEDF15"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3DD3EA9C-6EE2-9459-5EB9-AA2599EDE3B3" name="Produk_Kategori_produk_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>3C48F87D-3951-A482-E02B-1883972D890A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91AD2BC4-DB08-D53A-2580-B9385354AAA6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="73EA6DB7-6313-7D20-D5B3-C1343B034E44" name="Produk_supplier_produk_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>F613CB07-69CB-AA32-228A-24D4159A5A76</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E37C1F48-E451-8F4F-347D-F431867216A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

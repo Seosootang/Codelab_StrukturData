@@ -1,0 +1,70 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="80AF110D-322B-778B-FF6E-398FFF69AFE1" name="tb_laptop">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:34 UTC</createdTime>
+<generatorID>CF2957DE-9293-E4F7-FAD1-88F85F34B217</generatorID>
+<ownerDesignName>Codelab2</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_Produk" id="6CF6EBEC-04A8-DD07-41DE-AF9A05037E27">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:34 UTC</createdTime>
+<generatorID>51B1DCF9-FF73-0D5C-E402-8FCE3803D24F</generatorID>
+<ownerDesignName>Codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_Produk" id="44149BDA-242E-A21F-5E2B-D20F5A60E39E">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:34 UTC</createdTime>
+<generatorID>77FA5626-465C-FBDA-14C1-7157205AEB5B</generatorID>
+<ownerDesignName>Codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Harga" id="1E08D9FB-DD06-E07D-3984-A29F3FAC6677">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:34 UTC</createdTime>
+<generatorID>7934160A-47C8-EA5B-1477-351C9C23663C</generatorID>
+<ownerDesignName>Codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stok_Tersedia" id="E6811DF3-9EC7-543C-5198-22EDFAF01063">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:34 UTC</createdTime>
+<generatorID>9F0FBEC4-FFE2-CC65-8674-EFDF3DF774F1</generatorID>
+<ownerDesignName>Codelab2</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="197CBF05-3AFF-D3B8-3AD2-07F4CDC6E36F" name="tb_laptop_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:34 UTC</createdTime>
+<generatorID>5E5DCD8B-E4B2-B797-E1C3-CD736567F1EC</generatorID>
+<ownerDesignName>Codelab2</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6CF6EBEC-04A8-DD07-41DE-AF9A05037E27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

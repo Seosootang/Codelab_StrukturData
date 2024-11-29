@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2FC4AB28-3D38-ADC3-A206-E63E661FFFAB" name="silver">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>89E91876-DD12-856F-431F-249B58C1EA72</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pelanggan" id="E49FFA25-735F-5B7A-9D95-69162BBA83D3">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>497B4073-574E-BA33-7661-99D3EE026B21</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_pelanggan" id="4F612D8C-48FC-D550-F517-7FBAC6F9F7CC">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>E76DE073-B878-9359-3F95-86E8309E487B</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat" id="C3AE53FB-CAE5-3188-A40E-36D195FCAC56">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>A2FA7C29-6ECD-5E6A-2709-9B8D0482A73E</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id" id="1201697D-1312-FB3F-559F-9EACE1BB37F6">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>D5D003BA-2992-B14E-2ADE-2DE575A8B22E</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="3D731AB2-CE46-8BA6-65B3-70F9A9699174">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>77C1C1DB-DD2E-2986-9B05-BF4A5D17FAB6</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="point_to_gold" id="3507821B-C333-73D0-AC25-0E982111791A">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>12EA0A00-0814-09BA-0A22-08CCB2F5DC55</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="member_since" id="4832D64E-A692-8F6B-576B-CE3728E8A76A">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>0C90E172-E8C0-FB4A-AD5C-D5B7F021AD6E</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alamat1" id="14418DBC-639C-2CB0-14F4-4F5D76DB20D8">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>7DE0CF68-AF52-0B6A-AAF1-C188B9D730C0</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28658F4A-84C8-877A-797A-81A6D058ED2B" name="silver_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>87FEA837-A147-DA4D-0683-969023F4C270</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E49FFA25-735F-5B7A-9D95-69162BBA83D3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7AD96FFF-5B5F-2E12-9FEE-23A3308A2B6D" name="silver_PKv1">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>7CFEF047-FBF9-3A6E-C20E-5230C7841CD8</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1201697D-1312-FB3F-559F-9EACE1BB37F6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

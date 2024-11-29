@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C06C92BB-98E6-6C56-2F0F-C34A84053F0F" name="Voucher_eksklusif">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 15:13:35 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<hierarchicalParent>BC6A2555-EC98-AC90-8060-8E5F8E0D122E</hierarchicalParent>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_promo" id="0612D1E5-902C-D6B9-C507-E6D71AD296B6">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 15:13:35 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="potongan" id="24C74A41-8B40-04A9-E091-F29418603122">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 15:13:35 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="provided_by" id="7ADC7E0E-1013-1404-75EB-B53AC09AC000">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 15:13:35 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B14B85D8-B49B-5316-B77C-2399B8BC006C" name="Voucher PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 15:13:35 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0612D1E5-902C-D6B9-C507-E6D71AD296B6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

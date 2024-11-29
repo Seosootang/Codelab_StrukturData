@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="02489107-7109-3A6A-B530-083A5B41CA0A" name="karyawan">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>171209DF-DBD4-3CD1-24A1-5A97A188EF82</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="A9D8DEEE-E728-55E3-DF4B-54F4586365F9">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>0AD4128A-D137-3C7D-95F7-0D3B7B6372D2</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama" id="27719FFD-3995-F012-A2EE-384A80C6EDFD">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>3B5DCA27-C444-4F02-AE93-AA3D25B6C164</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jabatan" id="40F8F4CD-2BBB-E599-C2BC-D2CB44EF70DB">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>A64F02FF-D704-0F7F-0383-B22A24132735</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Kasir_id_kasir" id="8F840DDD-91CF-73FA-01BD-748D0C02EF09">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>51AC1F49-733A-FBAF-05D4-8DCDB78FE8E1</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A13A2443-0127-5970-9E22-93E662F7442B" referredColumn="8877A436-B7D5-27EF-5FCC-7F07DEDF4DD2"/>
+</associations>
+</Column>
+<Column name="karyawan_id" id="D7EB36FB-8613-63E0-05BB-5225115D57CD">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>9348DC7B-050D-40BA-D0B9-22A78F6700BF</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D6F499CD-9D09-E178-8505-B12B35006EC7" referredColumn="A9D8DEEE-E728-55E3-DF4B-54F4586365F9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B766D1F9-1D89-7460-64ED-0B34D744F0FF" name="karyawan_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>9250F093-045D-5784-E560-68C5698371A2</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A9D8DEEE-E728-55E3-DF4B-54F4586365F9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD3F4B15-E0A6-62DF-561F-7CDDBE067148" name="karyawan_Kasir_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>56538949-EA0C-2815-984D-BC5E3E268CCD</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8F840DDD-91CF-73FA-01BD-748D0C02EF09"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44D69A2C-BCEB-58BB-5BCF-02059AC6FAA7" name="karyawan_karyawan_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>434845D4-28DF-6EC1-01D9-49434EE2ABB0</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7EB36FB-8613-63E0-05BB-5225115D57CD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

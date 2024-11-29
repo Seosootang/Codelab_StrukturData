@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="9A86EE83-4221-0453-E206-37BB7AAC8D6A" containerWithKeyObject="DEFCEE4D-0E16-32E9-F696-94306DA5DC18" localFKIndex="A915B58D-9CD6-38A4-7244-F2E22F0839AC" name="Transaksi_Kasir_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>E6EEF8F3-F968-DA00-264E-B626B3428540</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<referredTableLongName>Kasir</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>CD471FF2-2C6A-62D4-6846-3E141619B985</referredTableID>
+<keyObject>9AC29C8E-E821-9061-F9A5-C2B96093F552</keyObject>
+<referredKeyID>9AC29C8E-E821-9061-F9A5-C2B96093F552</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kasir</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

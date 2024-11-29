@@ -34,11 +34,11 @@
 <engineerTo>
 <item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="nama_supplier" id="12EFF67C-6986-1CAE-7143-FF3313F08117">
 <createdBy>GF63</createdBy>
@@ -51,6 +51,63 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_transaksi" id="ABAB5194-0BE7-3D19-8392-ADDEF8B7ACC9">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:39:11 UTC</createdTime>
+<generatorID>303A4499-EB0E-4203-6961-904B8507EDA9</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>7147F3D9-0ADE-1D84-38CF-0F627A50D09C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_kategori" id="B80698FF-8294-C4FD-7FAC-C032F9F418A7">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:46:07 UTC</createdTime>
+<generatorID>3C48F87D-3951-A482-E02B-1883972D890A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>6F21020B-F657-5E4E-C392-862BCF3E1A43</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan1" id="524F2076-C74C-2234-E526-97FD420002BE">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 15:43:21 UTC</createdTime>
+<generatorID>303A4499-EB0E-4203-6961-904B8507EDA9</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>DDC2DFEF-0C1A-EF0B-24CD-7D9B23636772</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_supplier" id="A18F247A-C103-FCF1-4B45-67870FDC4C27">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 15:53:29 UTC</createdTime>
+<generatorID>F613CB07-69CB-AA32-228A-24D4159A5A76</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>A2F8B076-8B24-0C7C-74A3-C95703D2ACAA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

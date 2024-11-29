@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5284D87C-445B-C589-0B1B-0A351E7F7646" name="Voucher">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>BC6A2555-EC98-AC90-8060-8E5F8E0D122E</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promo" id="5E3EAC46-80B0-2C14-D445-732926B639F6">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>ECF4D36D-6FC6-A71D-25F3-EBB9B0B926FE</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="potongan" id="22FCC29A-8AD6-32D0-549E-19B12887F3A9">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>69EC502C-CE05-D110-77B2-F6CDDBA7270F</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaksi_id_transaksi" id="31C00290-833F-4D63-69D9-A0D6880E162F">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>F366FE0E-AD25-2A6C-2B27-0679416D6525</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="435DD213-11CC-1D3A-DD6C-F059934B09E3" referredColumn="F95EB3D8-CB19-6A2D-9652-1B26E289931C"/>
+</associations>
+</Column>
+<Column name="akhir_waktu" id="5A7C091C-4505-8794-5A8E-A6E0C1F14950">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>A72D323E-38CE-0121-49C1-CD0B47CB11F5</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Transaksi_id_pelanggan1" id="4414EB5C-2777-532B-F3C4-BC9AA2FB580D">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>8516698E-0191-379B-0989-0196EA0B75B3</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="435DD213-11CC-1D3A-DD6C-F059934B09E3" referredColumn="49064B87-730C-1B00-7651-4C073AF74E96"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2707E168-69F1-ACAC-D305-3F9B4F01957D" name="Voucher_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>F5FC65EA-58F9-CDDF-D4B3-EB3940D55C1B</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5E3EAC46-80B0-2C14-D445-732926B639F6"/>
+<colUsage columnID="31C00290-833F-4D63-69D9-A0D6880E162F"/>
+<colUsage columnID="4414EB5C-2777-532B-F3C4-BC9AA2FB580D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FD591256-66E8-4299-9771-1B2911E5C202" name="Voucher_Transaksi_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>7D7ABEF2-3CDE-EE8B-9344-52F15CC507D0</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="31C00290-833F-4D63-69D9-A0D6880E162F"/>
+<colUsage columnID="4414EB5C-2777-532B-F3C4-BC9AA2FB580D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

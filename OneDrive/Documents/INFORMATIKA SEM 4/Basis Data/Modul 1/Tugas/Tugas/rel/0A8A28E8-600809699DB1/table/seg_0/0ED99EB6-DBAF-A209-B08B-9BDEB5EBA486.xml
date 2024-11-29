@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0ED99EB6-DBAF-A209-B08B-9BDEB5EBA486" name="Kasir">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:50:55 UTC</createdTime>
+<generatorID>AFC4E51A-75DF-56FB-DEBE-956A7548523A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_kasir" id="FBDB8DFB-9612-280C-1CD8-A0B5F12A5339">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:50:55 UTC</createdTime>
+<generatorID>E1EB5E85-7CB8-91FA-C6BE-DBE618D85944</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nama_kasir" id="E9960E54-8295-DF3F-0B78-4831215A6757">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:50:55 UTC</createdTime>
+<generatorID>0B7784D0-2FA1-FE51-0F1D-6215DD0F49DA</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal" id="7E4CD9D2-BE81-DF08-B3DF-EB818A661773">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:50:55 UTC</createdTime>
+<generatorID>A7E5DAC7-CFEB-771E-601E-1FCD9F48F87F</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DCEF4BD1-EB64-6E2E-643C-6CB0ACA2B9D5" name="Kasir_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:50:55 UTC</createdTime>
+<generatorID>9D24D71C-3310-F32D-9D8E-C54ECEBC582B</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+</ind_PK_UK>
+</indexes>
+</Table>

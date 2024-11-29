@@ -1,0 +1,100 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BC6A2555-EC98-AC90-8060-8E5F8E0D122E" name="Voucher">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-16 05:49:28 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_promo" id="ECF4D36D-6FC6-A71D-25F3-EBB9B0B926FE">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-16 05:49:45 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="potongan" id="69EC502C-CE05-D110-77B2-F6CDDBA7270F">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-16 05:50:14 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_transaksi" id="F366FE0E-AD25-2A6C-2B27-0679416D6525">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-16 05:52:12 UTC</createdTime>
+<generatorID>7D7ABEF2-3CDE-EE8B-9344-52F15CC507D0</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>7147F3D9-0ADE-1D84-38CF-0F627A50D09C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="akhir_waktu" id="A72D323E-38CE-0121-49C1-CD0B47CB11F5">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-16 05:53:03 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan1" id="8516698E-0191-379B-0989-0196EA0B75B3">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 15:43:21 UTC</createdTime>
+<generatorID>7D7ABEF2-3CDE-EE8B-9344-52F15CC507D0</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>DDC2DFEF-0C1A-EF0B-24CD-7D9B23636772</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5FC65EA-58F9-CDDF-D4B3-EB3940D55C1B" name="Voucher PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-16 05:50:12 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>ECF4D36D-6FC6-A71D-25F3-EBB9B0B926FE</attributeRef>
+<attributeRef>F366FE0E-AD25-2A6C-2B27-0679416D6525</attributeRef>
+<attributeRef>8516698E-0191-379B-0989-0196EA0B75B3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

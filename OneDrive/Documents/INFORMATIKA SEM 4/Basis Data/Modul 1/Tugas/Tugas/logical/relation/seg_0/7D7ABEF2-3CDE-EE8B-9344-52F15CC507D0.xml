@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="enrols for" directorySegmentName="seg_0" id="7D7ABEF2-3CDE-EE8B-9344-52F15CC507D0">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-16 05:52:12 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<sourcePk>C65382C8-3FF2-2765-32EE-7DF6343F0C78</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9AAA2974-01EF-951C-3A76-C81E447BBF0A</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BC6A2555-EC98-AC90-8060-8E5F8E0D122E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

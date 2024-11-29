@@ -1,0 +1,47 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="CB53B5F1-973E-D9D9-5B7F-2E58B6D03E81" name="Kategori_produk">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:50:55 UTC</createdTime>
+<generatorID>5774AADA-0132-F700-68BB-78756C3EF4E9</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_kategori" id="EA06B078-6B0D-6E2C-CDE3-0A5549C6A582">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:50:55 UTC</createdTime>
+<generatorID>6F21020B-F657-5E4E-C392-862BCF3E1A43</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Nama_kategori" id="5CBB8670-0C7B-78D3-FABF-E457AAB33238">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:50:55 UTC</createdTime>
+<generatorID>35360D2A-433D-616C-25F0-CCDA89D80ABA</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A7039981-C9C4-5BBD-CBAA-EE449AE8A3AB" name="Kategori_produk_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:50:55 UTC</createdTime>
+<generatorID>7FAE6A63-0A47-F9A8-43ED-A3B50A1C36D9</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EA06B078-6B0D-6E2C-CDE3-0A5549C6A582"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

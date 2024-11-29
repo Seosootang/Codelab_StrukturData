@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="4C89DF05-BD3D-DC86-79D9-ED834EE44C8C" containerWithKeyObject="0DD9FA30-459C-B6E0-C097-99D101879903" localFKIndex="1E5AB9B4-7CA5-1FC5-176C-48B4E599C701" name="Voucher_eksklusif_Voucher_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>8545CD10-9EF4-3CBC-DB33-6FFBC876FEBD</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<referredTableLongName>Voucher</referredTableLongName>
+<arc>2B8EA7A6-8501-7F1F-D5DB-E49E827990D8</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>BDFC7AD1-8116-E87F-8925-5BED7D644C9F</referredTableID>
+<keyObject>AA8C5443-E8F0-A165-2265-A43F6CC816BD</keyObject>
+<referredKeyID>AA8C5443-E8F0-A165-2265-A43F6CC816BD</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_promo,Transaksi_id_transaksi,Transaksi_id_pelanggan1</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

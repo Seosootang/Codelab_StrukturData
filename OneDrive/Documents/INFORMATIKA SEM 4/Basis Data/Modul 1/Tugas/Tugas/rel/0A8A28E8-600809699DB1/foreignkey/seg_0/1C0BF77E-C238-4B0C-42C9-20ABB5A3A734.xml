@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1C0BF77E-C238-4B0C-42C9-20ABB5A3A734" containerWithKeyObject="66765330-2310-E89A-2308-97D166D9773E" localFKIndex="3DD3EA9C-6EE2-9459-5EB9-AA2599EDE3B3" name="Produk_Kategori_produk_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-04-22 22:57:02 UTC</createdTime>
+<generatorID>3C48F87D-3951-A482-E02B-1883972D890A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<referredTableLongName>Kategori_produk</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>84A0E53E-70E1-F205-615C-F4329F0F0B27</referredTableID>
+<keyObject>E2C0B6A7-5C62-6ECE-BE30-B2021D15E824</keyObject>
+<referredKeyID>E2C0B6A7-5C62-6ECE-BE30-B2021D15E824</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_kategori</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="ADA406B2-ACB8-DEEA-5C52-D7F3E458894D" name="Voucher_promo">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>91B9A332-41CA-0522-4D29-7554CFB09A83</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promo" id="F4FE3DF3-3D88-FFCF-7466-AAADFF76DA2A">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>ECF4D36D-6FC6-A71D-25F3-EBB9B0B926FE</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C8CDB94-E521-ACC8-16C1-D9585B04CA73" referredColumn="5E3EAC46-80B0-2C14-D445-732926B639F6"/>
+</associations>
+</Column>
+<Column name="id_promo1" id="E2899B31-BB15-A19D-28DF-3629C1D61061">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>52EE441A-8BD9-F70E-EB44-1225D03020A4</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_transaksi" id="7EB88C8C-07EA-3014-C603-41E710FC3C2F">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>F366FE0E-AD25-2A6C-2B27-0679416D6525</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C8CDB94-E521-ACC8-16C1-D9585B04CA73" referredColumn="31C00290-833F-4D63-69D9-A0D6880E162F"/>
+</associations>
+</Column>
+<Column name="potongan" id="D90C7FD9-6F55-28CF-092E-3817106A2851">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>2882A3D5-B9A4-A967-DB75-A5CFECF6764B</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pelanggan1" id="9D4A08F3-65DF-1962-B7FA-33D9869949DC">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>8516698E-0191-379B-0989-0196EA0B75B3</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1C8CDB94-E521-ACC8-16C1-D9585B04CA73" referredColumn="4414EB5C-2777-532B-F3C4-BC9AA2FB580D"/>
+</associations>
+</Column>
+<Column name="akhir_waktu" id="563A18F6-13E6-E139-1766-4067220E23EF">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>3417FD92-1564-2605-D39A-F7EE82F89714</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="058D0316-63FD-D178-A02D-A3625F5B8309" name="Voucher_promo_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>F5FC65EA-58F9-CDDF-D4B3-EB3940D55C1B</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4FE3DF3-3D88-FFCF-7466-AAADFF76DA2A"/>
+<colUsage columnID="7EB88C8C-07EA-3014-C603-41E710FC3C2F"/>
+<colUsage columnID="9D4A08F3-65DF-1962-B7FA-33D9869949DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8DA87D96-9FAF-3653-93FF-43CBD4C65316" name="Voucher_promo_PKv1">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>F24046B2-D6C7-1164-1E26-71823D195E1F</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E2899B31-BB15-A19D-28DF-3629C1D61061"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="00B4F536-4DA5-7083-1F4E-2C592F3C1AC5" name="Voucher_promo_Voucher_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>48D21403-C716-5F07-3FC2-65C07D0D055D</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F4FE3DF3-3D88-FFCF-7466-AAADFF76DA2A"/>
+<colUsage columnID="7EB88C8C-07EA-3014-C603-41E710FC3C2F"/>
+<colUsage columnID="9D4A08F3-65DF-1962-B7FA-33D9869949DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

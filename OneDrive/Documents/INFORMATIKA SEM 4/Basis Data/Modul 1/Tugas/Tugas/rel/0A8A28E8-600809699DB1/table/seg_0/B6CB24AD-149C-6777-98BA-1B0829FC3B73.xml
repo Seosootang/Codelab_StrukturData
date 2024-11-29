@@ -1,0 +1,129 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B6CB24AD-149C-6777-98BA-1B0829FC3B73" name="Voucher_eksklusif">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>C06C92BB-98E6-6C56-2F0F-C34A84053F0F</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_promo" id="44C0ADF8-8893-2A7B-F1CC-0613F8A87066">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>ECF4D36D-6FC6-A71D-25F3-EBB9B0B926FE</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BEA3182-C410-4129-3B44-51D0F76417F7" referredColumn="5E3EAC46-80B0-2C14-D445-732926B639F6"/>
+</associations>
+</Column>
+<Column name="id_promo1" id="8BFF93E5-0D18-D8B0-FB0F-5B4077F5B519">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>0612D1E5-902C-D6B9-C507-E6D71AD296B6</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_transaksi" id="CC289FD8-D51E-0932-153B-01534771AE4E">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>F366FE0E-AD25-2A6C-2B27-0679416D6525</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BEA3182-C410-4129-3B44-51D0F76417F7" referredColumn="31C00290-833F-4D63-69D9-A0D6880E162F"/>
+</associations>
+</Column>
+<Column name="potongan" id="B65A7FB8-B759-CE79-FE42-832530058708">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>24C74A41-8B40-04A9-E091-F29418603122</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pelanggan1" id="4614E979-6BCB-F91D-73BD-7DD0AAAB5442">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>8516698E-0191-379B-0989-0196EA0B75B3</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5BEA3182-C410-4129-3B44-51D0F76417F7" referredColumn="4414EB5C-2777-532B-F3C4-BC9AA2FB580D"/>
+</associations>
+</Column>
+<Column name="provided_by" id="9D93CC9A-0144-E442-9919-A05CE9552AB8">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>7ADC7E0E-1013-1404-75EB-B53AC09AC000</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="88B4140A-5518-CD1E-5691-AAB29197B6D5" name="Voucher_eksklusif_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>F5FC65EA-58F9-CDDF-D4B3-EB3940D55C1B</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44C0ADF8-8893-2A7B-F1CC-0613F8A87066"/>
+<colUsage columnID="CC289FD8-D51E-0932-153B-01534771AE4E"/>
+<colUsage columnID="4614E979-6BCB-F91D-73BD-7DD0AAAB5442"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0E15B2B2-58DF-43F0-F38E-1AA51991C052" name="Voucher_eksklusif_PKv1">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>B14B85D8-B49B-5316-B77C-2399B8BC006C</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Unique Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8BFF93E5-0D18-D8B0-FB0F-5B4077F5B519"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B87C98FB-7EEF-4332-BB2C-3798BCF7598B" name="Voucher_eksklusif_Voucher_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>8545CD10-9EF4-3CBC-DB33-6FFBC876FEBD</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="44C0ADF8-8893-2A7B-F1CC-0613F8A87066"/>
+<colUsage columnID="CC289FD8-D51E-0932-153B-01534771AE4E"/>
+<colUsage columnID="4614E979-6BCB-F91D-73BD-7DD0AAAB5442"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

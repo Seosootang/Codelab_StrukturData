@@ -1,0 +1,18 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C9FC362A-96C7-306D-A187-B0D1A47BFC5E" containerWithKeyObject="DEFCEE4D-0E16-32E9-F696-94306DA5DC18" localFKIndex="36D3DA13-C494-7BE0-7095-28CD23678F96" name="Transaksi_gold_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>CD2FD869-EF0B-0BD3-489A-D47EC2A83E6C</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<referredTableLongName>gold</referredTableLongName>
+<arc>A019766E-EC84-7CE6-1299-47FB8943FDB9</arc>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>F47D066C-AEB7-310D-3C30-044DB5DEDCB8</referredTableID>
+<keyObject>3DF8B672-0C1D-B19D-05D9-164DA1EF75AA</keyObject>
+<referredKeyID>3DF8B672-0C1D-B19D-05D9-164DA1EF75AA</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>id_pelanggan</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

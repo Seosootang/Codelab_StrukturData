@@ -1,0 +1,81 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF2957DE-9293-E4F7-FAD1-88F85F34B217" name="tb_laptop">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:05 UTC</createdTime>
+<ownerDesignName>Codelab2</ownerDesignName>
+<engineerTo>
+<item key="548283CF-20D8-D87A-05FB-21B0C396516E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_Produk" id="51B1DCF9-FF73-0D5C-E402-8FCE3803D24F">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:05 UTC</createdTime>
+<ownerDesignName>Codelab2</ownerDesignName>
+<engineerTo>
+<item key="548283CF-20D8-D87A-05FB-21B0C396516E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nama Produk" id="77FA5626-465C-FBDA-14C1-7157205AEB5B">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:05 UTC</createdTime>
+<ownerDesignName>Codelab2</ownerDesignName>
+<engineerTo>
+<item key="548283CF-20D8-D87A-05FB-21B0C396516E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Harga" id="7934160A-47C8-EA5B-1477-351C9C23663C">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:05 UTC</createdTime>
+<ownerDesignName>Codelab2</ownerDesignName>
+<engineerTo>
+<item key="548283CF-20D8-D87A-05FB-21B0C396516E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Stok Tersedia" id="9F0FBEC4-FFE2-CC65-8674-EFDF3DF774F1">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:05 UTC</createdTime>
+<ownerDesignName>Codelab2</ownerDesignName>
+<engineerTo>
+<item key="548283CF-20D8-D87A-05FB-21B0C396516E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="5E5DCD8B-E4B2-B797-E1C3-CD736567F1EC" name="id_buku PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-02-20 01:09:05 UTC</createdTime>
+<ownerDesignName>Codelab2</ownerDesignName>
+<engineerTo>
+<item key="548283CF-20D8-D87A-05FB-21B0C396516E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>51B1DCF9-FF73-0D5C-E402-8FCE3803D24F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

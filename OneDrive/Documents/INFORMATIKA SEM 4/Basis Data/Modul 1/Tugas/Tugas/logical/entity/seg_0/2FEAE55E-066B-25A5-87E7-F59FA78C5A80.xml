@@ -3,8 +3,9 @@
 <createdBy>GF63</createdBy>
 <createdTime>2024-02-26 15:14:56 UTC</createdTime>
 <ownerDesignName>Tugas</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="false"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -15,7 +16,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_pelanggan_1" id="497B4073-574E-BA33-7661-99D3EE026B21">
+<Attribute name="id_pelanggan" id="497B4073-574E-BA33-7661-99D3EE026B21">
 <createdBy>GF63</createdBy>
 <createdTime>2024-02-26 15:14:56 UTC</createdTime>
 <ownerDesignName>Tugas</ownerDesignName>
@@ -34,11 +35,11 @@
 <engineerTo>
 <item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="alamat" id="A2FA7C29-6ECD-5E6A-2709-9B8D0482A73E">
 <createdBy>GF63</createdBy>
@@ -47,25 +48,11 @@
 <engineerTo>
 <item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_penjualan" id="73432CD6-CCD0-F347-4460-971858AAB852">
-<createdBy>GF63</createdBy>
-<createdTime>2024-02-26 15:18:55 UTC</createdTime>
-<generatorID>46BCE75A-7F2A-3046-A508-3511100F7AF9</generatorID>
-<ownerDesignName>Tugas</ownerDesignName>
-<engineerTo>
-<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
-</engineerTo>
-<referedAttribute>7147F3D9-0ADE-1D84-38CF-0F627A50D09C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">

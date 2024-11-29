@@ -1,0 +1,148 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DEFCEE4D-0E16-32E9-F696-94306DA5DC18" name="Transaksi">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>9AAA2974-01EF-951C-3A76-C81E447BBF0A</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_transaksi" id="F95EB3D8-CB19-6A2D-9652-1B26E289931C">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>7147F3D9-0ADE-1D84-38CF-0F627A50D09C</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tanggal_transaksi" id="34214BC6-A917-33B0-F756-C0E9A69BEB48">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>ECA07A91-CF8B-AE32-5A53-DD770230A8AC</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT047</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pelanggan" id="EE9822F3-57B8-6DF1-8014-0FD747DAF71C">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>68248E6A-7C99-3B98-DE32-4627CAAC003B</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="jumlah_produk" id="1E3A4C27-F096-0C6E-47F7-DFDA28879D15">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>CF01457F-2602-126F-DD88-4F878C591509</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subtotal" id="5D029840-E08E-E0EF-879B-89E3FF919C06">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>94A25065-3849-C0F4-ECF7-3176C3A41A80</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="silver_id_pelanggan" id="49064B87-730C-1B00-7651-4C073AF74E96">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>DDC2DFEF-0C1A-EF0B-24CD-7D9B23636772</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C9FC362A-96C7-306D-A187-B0D1A47BFC5E" referredColumn="104316E1-723D-8BFF-92C8-0BF42F6BB352"/>
+<colAssociation fkAssociation="9DB4356E-70C3-A48E-D8D5-A694B1A39D70" referredColumn="6BB20F17-FD20-43B8-8DBD-50EDA19EF480"/>
+</associations>
+</Column>
+<Column name="Kasir_id_kasir" id="0510DEAC-B6FA-AF83-BF03-843A5465A722">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>7AB92F20-E1D2-16CF-78C4-69FA65527A97</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="9A86EE83-4221-0453-E206-37BB7AAC8D6A" referredColumn="8877A436-B7D5-27EF-5FCC-7F07DEDF4DD2"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F79E71D8-4866-66F0-9ACE-2F5FBC0E48F2" name="Transaksi_PK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>C65382C8-3FF2-2765-32EE-7DF6343F0C78</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F95EB3D8-CB19-6A2D-9652-1B26E289931C"/>
+<colUsage columnID="49064B87-730C-1B00-7651-4C073AF74E96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A915B58D-9CD6-38A4-7244-F2E22F0839AC" name="Transaksi_Kasir_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>E6EEF8F3-F968-DA00-264E-B626B3428540</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0510DEAC-B6FA-AF83-BF03-843A5465A722"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36D3DA13-C494-7BE0-7095-28CD23678F96" name="Transaksi_gold_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>CD2FD869-EF0B-0BD3-489A-D47EC2A83E6C</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49064B87-730C-1B00-7651-4C073AF74E96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D84F582A-5F93-C1F9-0910-52FE8B30095E" name="Transaksi_silver_FK">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-25 16:15:13 UTC</createdTime>
+<generatorID>CD2FD869-EF0B-0BD3-489A-D47EC2A83E6C</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49064B87-730C-1B00-7651-4C073AF74E96"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

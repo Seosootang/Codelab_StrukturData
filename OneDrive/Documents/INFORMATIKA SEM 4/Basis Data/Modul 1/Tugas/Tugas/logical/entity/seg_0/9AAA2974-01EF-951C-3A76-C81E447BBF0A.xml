@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AAA2974-01EF-951C-3A76-C81E447BBF0A" name="penjualan">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9AAA2974-01EF-951C-3A76-C81E447BBF0A" name="Transaksi">
 <createdBy>GF63</createdBy>
 <createdTime>2024-02-26 15:09:55 UTC</createdTime>
 <ownerDesignName>Tugas</ownerDesignName>
@@ -15,7 +15,7 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_penjualan" id="7147F3D9-0ADE-1D84-38CF-0F627A50D09C">
+<Attribute name="id_transaksi" id="7147F3D9-0ADE-1D84-38CF-0F627A50D09C">
 <createdBy>GF63</createdBy>
 <createdTime>2024-02-26 15:11:55 UTC</createdTime>
 <ownerDesignName>Tugas</ownerDesignName>
@@ -27,14 +27,13 @@
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="tanggal" id="ECA07A91-CF8B-AE32-5A53-DD770230A8AC">
+<Attribute name="tanggal_transaksi" id="ECA07A91-CF8B-AE32-5A53-DD770230A8AC">
 <createdBy>GF63</createdBy>
 <createdTime>2024-02-26 15:13:15 UTC</createdTime>
 <ownerDesignName>Tugas</ownerDesignName>
 <engineerTo>
 <item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT047</logicalDatatype>
@@ -47,21 +46,60 @@
 <engineerTo>
 <item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_produk" id="D561868B-C2BA-5F1F-04B2-58F1EEB7574E">
+<Attribute name="jumlah_produk" id="CF01457F-2602-126F-DD88-4F878C591509">
 <createdBy>GF63</createdBy>
-<createdTime>2024-02-26 15:28:06 UTC</createdTime>
-<generatorID>1EE38B32-4948-2583-2FE7-8298405535C5</generatorID>
+<createdTime>2024-03-11 16:32:28 UTC</createdTime>
 <ownerDesignName>Tugas</ownerDesignName>
 <engineerTo>
 <item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
 </engineerTo>
-<referedAttribute>4A76F587-994C-30C8-83D5-8B70565617CE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="subtotal" id="94A25065-3849-C0F4-ECF7-3176C3A41A80">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:33:00 UTC</createdTime>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,10,3</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pelanggan1" id="DDC2DFEF-0C1A-EF0B-24CD-7D9B23636772">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-11 16:48:35 UTC</createdTime>
+<generatorID>CD2FD869-EF0B-0BD3-489A-D47EC2A83E6C</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>497B4073-574E-BA33-7661-99D3EE026B21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_kasir" id="7AB92F20-E1D2-16CF-78C4-69FA65527A97">
+<createdBy>GF63</createdBy>
+<createdTime>2024-03-16 05:36:55 UTC</createdTime>
+<generatorID>E6EEF8F3-F968-DA00-264E-B626B3428540</generatorID>
+<ownerDesignName>Tugas</ownerDesignName>
+<engineerTo>
+<item key="0A8A28E8-D0B6-3E79-9643-600809699DB1" value="true"/>
+</engineerTo>
+<referedAttribute>E1EB5E85-7CB8-91FA-C6BE-DBE618D85944</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT019</logicalDatatype>
@@ -80,6 +118,7 @@
 <pk>true</pk>
 <usedAttributes>
 <attributeRef>7147F3D9-0ADE-1D84-38CF-0F627A50D09C</attributeRef>
+<attributeRef>DDC2DFEF-0C1A-EF0B-24CD-7D9B23636772</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>

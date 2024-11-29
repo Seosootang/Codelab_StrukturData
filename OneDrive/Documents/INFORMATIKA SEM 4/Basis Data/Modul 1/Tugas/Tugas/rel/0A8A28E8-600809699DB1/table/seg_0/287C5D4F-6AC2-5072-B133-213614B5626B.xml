@@ -43,21 +43,6 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="penjualanv1_id_penjualan" id="71D9697C-B4EC-B5F3-1892-FDED1EE7882D">
-<createdBy>GF63</createdBy>
-<createdTime>2024-02-26 15:21:17 UTC</createdTime>
-<generatorID>73432CD6-CCD0-F347-4460-971858AAB852</generatorID>
-<ownerDesignName>Tugas</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT019</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="8B4CB03F-4A1D-AA63-D31A-58728C69885F" referredColumn="6978612F-F447-CAE6-FAFC-2FDE6AA78B0E"/>
-</associations>
-</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="33E279B2-F6B2-A563-A4E1-068BAB907513" name="pelanggan_PK">
@@ -70,17 +55,6 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="9B338867-006E-1922-C62C-AE893E7D27C0"/>
-</indexColumnUsage>
-</ind_PK_UK>
-<ind_PK_UK id="972F3F59-0D4C-1A5E-B66A-54DB2F8B75BE" name="pelanggan_penjualanv1_FK">
-<createdBy>GF63</createdBy>
-<createdTime>2024-02-26 15:21:17 UTC</createdTime>
-<generatorID>46BCE75A-7F2A-3046-A508-3511100F7AF9</generatorID>
-<ownerDesignName>Tugas</ownerDesignName>
-<indexState>Foreign Key</indexState>
-<isSurrogateKey>false</isSurrogateKey>
-<indexColumnUsage>
-<colUsage columnID="71D9697C-B4EC-B5F3-1892-FDED1EE7882D"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
